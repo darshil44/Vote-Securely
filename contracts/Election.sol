@@ -9,7 +9,7 @@ contract Election {
     bool goingon = true;
     mapping(address => bool) public voters;
     mapping(uint => Candidate) public candidates;
-    uint public candidatesCount;
+    uint public candidatesCount; 
 
     event votedEvent (
         uint indexed _candidateId
