@@ -1,6 +1,6 @@
 pragma solidity 0.4.24;
  
-contract Election {
+contract Election { 
     struct Candidate { 
         uint id; 
         string name; 
